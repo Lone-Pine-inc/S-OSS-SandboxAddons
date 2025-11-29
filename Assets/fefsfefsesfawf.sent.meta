@@ -1,0 +1,21 @@
+{
+  "publish": {
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "Rat spine",
+      "Type": "sent",
+      "Org": "evilinc",
+      "Ident": "fefsfefsesfawf",
+      "Schema": 0,
+      "IncludeSourceFiles": false,
+      "Resources": null,
+      "PackageReferences": null,
+      "EditorReferences": null,
+      "Mounts": null,
+      "IsStandaloneOnly": false,
+      "Metadata": {
+        "SingleAssetSource": "fefsfefsesfawf.sent"
+      }
+    }
+  }
+}

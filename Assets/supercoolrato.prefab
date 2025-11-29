@@ -1,0 +1,193 @@
+{
+  "RootObject": {
+    "__guid": "b0563414-fb4b-4876-9641-4a9aaa997de3",
+    "__version": 1,
+    "Flags": 0,
+    "Name": "supercoolrato",
+    "Position": "0,0,0",
+    "Rotation": "0,0,0,1",
+    "Scale": "1,1,1",
+    "Tags": "",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkInterpolation": true,
+    "NetworkOrphaned": 0,
+    "OwnerTransfer": 1,
+    "Components": [
+      {
+        "__type": "RatSpine",
+        "__guid": "8e60a2c3-31c7-4e0d-8f19-fc848073db7f",
+        "__enabled": true,
+        "Body": {
+          "_type": "gameobject",
+          "go": "067e1efb-0603-4c17-93f7-88360e753647"
+        },
+        "JumpVelocity": 700,
+        "MusicSound": "sounds/freebird-solo-rat.sound",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "PoopInterval": 3,
+        "PoopPrefab": {
+          "_type": "gameobject",
+          "prefab": "poop.prefab"
+        },
+        "PoopSound": "sounds/poop-sound-effect.sound",
+        "rigidbody": {
+          "_type": "component",
+          "component_id": "e1302b86-8b0f-4ec8-abd5-c0f878d5998c",
+          "go": "b0563414-fb4b-4876-9641-4a9aaa997de3",
+          "component_type": "Rigidbody"
+        },
+        "SpinSpeed": 460
+      },
+      {
+        "__type": "Sandbox.Rigidbody",
+        "__guid": "e1302b86-8b0f-4ec8-abd5-c0f878d5998c",
+        "__enabled": true,
+        "AngularDamping": 0,
+        "Gravity": true,
+        "LinearDamping": 0,
+        "Locking": {
+          "X": false,
+          "Y": false,
+          "Z": false,
+          "Pitch": false,
+          "Yaw": false,
+          "Roll": false
+        },
+        "MassCenterOverride": "0,0,0",
+        "MassOverride": 0,
+        "MotionEnabled": true,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OverrideMassCenter": false,
+        "RigidbodyFlags": 0,
+        "StartAsleep": false
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "067e1efb-0603-4c17-93f7-88360e753647",
+        "__version": 1,
+        "Flags": 0,
+        "Name": "model",
+        "Position": "0,0,0",
+        "Rotation": "0,0,0,1",
+        "Scale": "4.299681,4.299681,4.260188",
+        "Tags": "",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkInterpolation": true,
+        "NetworkOrphaned": 0,
+        "OwnerTransfer": 1,
+        "Components": [
+          {
+            "__type": "Sandbox.SkinnedModelRenderer",
+            "__guid": "0c579b20-4dba-4ad1-8abb-26b9ab6edcb6",
+            "__enabled": true,
+            "AnimationGraph": null,
+            "BodyGroups": 18446744073709551615,
+            "BoneMergeTarget": null,
+            "CreateAttachments": false,
+            "CreateBoneObjects": false,
+            "LodOverride": null,
+            "MaterialGroup": null,
+            "MaterialOverride": null,
+            "Materials": null,
+            "Model": "street_rat_2k.vmdl",
+            "Morphs": {},
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Parameters": {
+              "bools": {},
+              "ints": {},
+              "floats": {},
+              "vectors": {},
+              "rotations": {}
+            },
+            "PlaybackRate": 1,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Sequence": {
+              "Name": null,
+              "Looping": true,
+              "Blending": false
+            },
+            "Tint": "1,1,1,1",
+            "UseAnimGraph": true
+          },
+          {
+            "__type": "Sandbox.SphereCollider",
+            "__guid": "e0667190-183a-48d9-ac8c-e935ec7d204d",
+            "__enabled": true,
+            "Center": "0,0,1.84",
+            "Elasticity": null,
+            "Friction": null,
+            "IsTrigger": false,
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnObjectTriggerEnter": null,
+            "OnObjectTriggerExit": null,
+            "OnTriggerEnter": null,
+            "OnTriggerExit": null,
+            "Radius": 5.099982,
+            "RollingResistance": null,
+            "Static": false,
+            "Surface": null,
+            "SurfaceVelocity": "0,0,0"
+          }
+        ],
+        "Children": []
+      }
+    ],
+    "__properties": {
+      "NetworkInterpolation": true,
+      "TimeScale": 1,
+      "WantsSystemScene": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    },
+    "__variables": []
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "__references": [
+    "redcodi.streetrat#87217"
+  ],
+  "__version": 2
+}
